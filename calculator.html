@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator App</title>
+  <link href="calculator.css" rel="stylesheet" type="text/css">
+  <script src = calculator.js></script>
+  </head>
+<body>
+  <!--Calculater-->
+  <form>
+    <table class="table-cals">
+      <tr>
+       <td colspan="4">
+         <h1>Calculator App</h1>
+       </td>
+     </tr>
+     <tr>
+       <td>
+         <input type="number" placeholder="First Number" id =first-cals >
+      </td>
+       <td>
+        <input = "text" id = operation-cals readonly></input>
+      </td>
+      <td>
+      <input type="number" placeholder="Second Number" id =second-cals >
+      </td>
+      <td>
+       <button type="button" class="btn-cals" id = equal-cals onclick="equal()">=</button>
+     </td>
+     </tr>
+     <tr>
+       <td colspan="3">
+         <input type="number" placeholder="Display Result" id = result-cals>
+       </td>
+     </tr>
+     <tr>
+       <td>
+         <button type="button"class="task-cals" onclick="showme('+')"id = add-cals >+</button>
+       </td>
+       <td>
+         <button type="button" class="task-cals"onclick="showme1('-')" id = sub-cals>-</button>
+       </td>
+       <td>
+         <button type="button" class="task-cals" onclick="showme2('*')"id = mul-cals>*</button>
+       </td>
+       <td>
+         <button type="button" class="task-cals"onclick="showme3('/')" id=div-cals>/</button>
+       </td>
+     </tr>
+    </table>
+  </form>
+</body>
+</html>
